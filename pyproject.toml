@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=75.8.2", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xml-layer-swapper"
+version = "1.0.0"
+description = "A project to swap XML layers by name into a designated position."
+authors = [
+    {name = "Valentina Matos-Romero"}
+]
+readme = "README.md"
+dependencies = [
+    "xmltodict",
+    "glob2"
+]
+
+[project.urls]
+Homepage = "https://github.com/Valentinamatos/XMLemental"
+
+[tool.setuptools]
+
+[tool.setuptools.packages.find]
