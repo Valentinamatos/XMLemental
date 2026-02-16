@@ -79,7 +79,7 @@ def swap_layers_by_names(base_path, layer_names, positions, case_sensitive=True)
             print(f"({xml_files.index(xml_file) + 1}/{len(xml_files)})")
 
 if __name__ == "__main__":
-    base_path = r'\\10.99.68.52\Kiemendata\Valentina Matos\LG HG PanIN project\annotations lucie to revise'
+    base_path = r'your path here'
     layer_names = ['stroma', 'epithelium']
     positions = [2, 3]
     swap_layers_by_names(base_path, layer_names, positions, case_sensitive=False)
